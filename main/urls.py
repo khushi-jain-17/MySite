@@ -6,8 +6,9 @@ urlpatterns=[
     path("",views.home,name="home"),
     path("home/",views.home,name="home"),
     path("create/", views.create, name="index"),
-
+    path("view/",views.view,name="view")
 ]
+
 
 
 
